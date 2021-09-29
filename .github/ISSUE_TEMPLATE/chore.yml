@@ -1,0 +1,16 @@
+name: Chore
+description: Mostly a repetitive task that needs to be done
+title: ''
+labels: ['chore']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to write this down!
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to be done?
+      placeholder: Be as detailed as possible!
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: Feature Request
+description: Request a feature
+title: ''
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request this feature!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your proposal related to a poblem?
+      placeholder: Tell us what & why you're missing this feature!
+      value: |
+        1. Users need to be able to ..
+        2. UX-wise this would lead to ..
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Sketch the context of the feature, what do we need to know to understand this feature request?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Technically, what needs to be done to realize this feature?
