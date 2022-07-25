@@ -1,6 +1,6 @@
 name: Chore
 description: Mostly a repetitive task that needs to be done
-title: ''
+title: 'chore: '
 labels: ['chore']
 body:
   - type: markdown
