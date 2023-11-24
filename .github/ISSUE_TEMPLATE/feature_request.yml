@@ -9,7 +9,7 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Is your proposal related to a poblem?
+      label: Is your proposal related to a problem?
       placeholder: Tell us what & why you're missing this feature!
       value: |
         1. Users need to be able to ..
